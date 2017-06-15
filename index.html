@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!--compatibility meta for IE internet explore -->
+        <meta name="viewport" content="width=device-width, initial-scale=1"> <!--compatibility meta for Mobile first -->
+        <meta name="Aurora resturant" content="I'm designing this web for sharpMobile (code touch) as an interview task that ordered from me"/>
+        <title>Aurora resturant</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="css/font-awesome.min.css"/>
+        <link rel="stylesheet" href="css/jquery.bxslider.min.css"/>
+        <link rel="stylesheet" href="css/style.css"/>
+        <!--[if lt IE 9]>
+            <script src="js/html5shiv.min.js"></script>
+            <script src="js/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        
+        <!-- start our nav bar -->
+        <nav class="navbar">
+          <div class="container">
+              <div class="row">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="#">Aurora</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav navbar-right links">
+                    <li><a href="#" data-value="hom" class="active">Home</a></li>
+                    <li><a href="#" data-value="abo">About</a></li>
+                    <li><a href="#" data-value="men">Menu</a></li>
+                    <li><a href="#" data-value="con">Contact Us</a></li>
+                  </ul>
+                </div><!-- /.navbar-collapse -->
+              </div>
+          </div><!-- /.container-fluid -->
+        </nav>
+            <!-- end our nav bar -->
+        
+        
+        
+                   <!-- start with header -->
+        <header>    
+            <div class="header">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="overlay">
+                            <ul class="bxslider">
+                              <li>
+                                <img src="image/slider-1.jpg"/>
+                              </li>
+                              <li>
+                                <img src="image/slider-2.jpg"/>
+                              </li>
+                              <li>
+                                <img src="image/slider-3.jpg"/>
+                              </li>
+                              <li>
+                                <img src="image/slider-4.jpeg"/>
+                              </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+             <!-- end with header -->
+        
+        
+        
+            <!-- start with about section -->
+        <section>
+            <div class="aboutUs" id="abo">
+                <div class="container">
+                    <h2>About us</h2>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                            <div class="about a-1">
+                                <i class="fa fa-bullseye fa-4x fa-fw"></i>
+                                <div class="info">
+                                    <h3>focus</h3>
+                                    <p>Our focus has always been on using higher-quality ingredients and cooking techniques to make great food accessible to all people at reasonable prices. But our vision has evolved. While using a variety of fresh ingredients remains the foundation of our menu, we believe that "fresh is not enough, anymore.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                            <div class="about a-2">
+                                <i class="fa fa-arrows fa-4x fa-fw"></i>
+                                <div class="info">
+                                    <h3>Mission</h3>
+                                    <p>Buffalo Burger, the Business of Good Food We aim to do a few things but do them exceptionally well.  the goal was simple: to serve high quality, delicious food quickly with an experience that not only exceeded, but redefined the fast food experience and create "happy people = happy customer" concept.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                            <div class="about a-3">
+                                <i class="fa fa-eye fa-4x fa-fw"></i>
+                                <div class="info">
+                                    <h3>Vision</h3>
+                                    <p>The best quick service restaurant presenting gourmet burgers in a fine dine experience in the local, regiognal, and the international market. We aim to succeed in the four milestones of our business cores Customers, team members, franchisees, and shareholders.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+            <!-- end with about section -->
+        
+        
+        <div class="container">
+            <div class="row">
+                <hr>
+           </div>
+        </div>
+        <div class="clearfix"></div>
+        
+        
+            <!-- start with our services section -->
+        <section>
+            <div class="services" id="men">
+                <div class="container">
+                    <h2>Choose your meal</h2>
+                    <p>With Aurora now you can choose your meal between big different burgers offerings and sizes (combo meals and sandwiches) just start to create your order and we'll reach you as soon as possible.</p>
+                    <div class="controls">
+                      <button class="filter selective" data-filter="all" type="button">Show all</button> 
+                      <button class="filter" data-filter=".fish" type="button">Light Sandwiches</button>
+                      <button class="filter" data-filter=".beef" type="button">Beef Sandwiches</button>
+                      <button class="filter" data-filter=".chicken" type="button">Chicken Sandwiches</button>    
+                    </div>
+                    <!--
+                    <ul class="list-unstyled controls">
+                        <li class="selective filter" data-filter="all">All</li>
+                        <li class="filter" data-filter=".fish">Light Sandwiches</li>
+                        <li class="filter" data-filter=".beef">Beef Sandwiches</li>
+                        <li class="filter" data-filter=".chicken">Chicken Sandwiches</li>
+                    </ul>
+                    -->
+                    <div class="row text-center" id="Container">
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                            <div class="item mix beef">
+                                <div class="pic">
+                                    <img src="image/sand-buf-1.jpg" alt="bef-1" class="img-responsive center-block"/>
+                                    <span>51 EGP</span>
+                                </div>
+                                <div class="txt">
+                                    <h3>The Rastafari</h3>
+                                    <p>jalapeno cheddar bites on a burger patty with creamy buffalo sauce.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                            <div class="item mix beef">
+                                <div class="pic">
+                                    <img src="image/sand-buf-2.jpg" alt="bef-2" class="img-responsive center-block"/>
+                                    <span>36 EGP</span>
+                                </div>
+                                <div class="txt">
+                                    <h3>Cholo's Chili</h3>
+                                    <p>mexican jalapenos , spicy buffalo sauce, cheddar cheese.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                            <div class="item mix beef">
+                                <div class="pic">
+                                    <img src="image/sand-buf-3.jpg" alt="bef-3" class="img-responsive center-block"/>
+                                    <span>41 EGP</span>
+                                </div>
+                                <div class="txt">
+                                    <h3>Shitake Mushroom</h3>
+                                    <p>sauteed fresh mushroom,cheddar cheese and tinge of mayonnaise.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                            <div class="item mix chicken">
+                                <div class="pic">
+                                    <img src="image/sand-che-1.png" alt="che-1" class="img-responsive center-block"/>
+                                    <span>23 EGP</span>
+                                </div>
+                                <div class="txt">
+                                    <h3>Chicken Mushroom</h3>
+                                    <p>loaded with fresh sauteed mushroom , topped with melted cheddar cheese.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                            <div class="item mix chicken">
+                                <div class="pic">
+                                    <img src="image/sand-che-2.jpg" alt="che-2" class="img-responsive center-block"/>
+                                    <span>39 EGP</span>
+                                </div>
+                                <div class="txt">
+                                    <h3>Rastafari Chicken</h3>
+                                    <p>the caribbean spirit is all over this sandwich, double cheddar stuffed jalapeno fingers.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                            <div class="item mix chicken">
+                                <div class="pic">
+                                    <img src="image/sand-che-3.jpg" alt="che-3" class="img-responsive center-block"/>
+                                    <span>31 EGP</span>
+                                </div>
+                                <div class="txt">
+                                    <h3>Rastafari Chicken</h3>
+                                    <p>the caribbean spirit is all over this sandwich, double cheddar stuffed jalapeno fingers.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                            <div class="item mix fish">
+                                <div class="pic">
+                                    <img src="image/sand-b-meal-1.jpg" alt="meal-1" class="img-responsive center-block"/>
+                                    <span>70 EGP</span>
+                                </div>
+                                <div class="txt">
+                                    <h3>Baby Boomers meal</h3>
+                                    <p>a lean grilled burger patty on multi grain bread bun with sauteed mushroom and light cheddar cheese.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                            <div class="item mix fish">
+                                <div class="pic">
+                                    <img src="image/sand-b-meal-2.jpg" alt="meal-2" class="img-responsive center-block"/>
+                                    <span>83 EGP</span>
+                                </div>
+                                <div class="txt">
+                                    <h3>Skinny Buffalo meal</h3>
+                                    <p>a lean grilled Burger patty on a multi grain bread bun, light buffalo sauce and light cheddar cheese.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                            <div class="item mix fish">
+                                <div class="pic">
+                                    <img src="image/sand-b-meal-3.jpg" alt="meal-3" class="img-responsive center-block"/>
+                                    <span>65 EGP</span>
+                                </div>
+                                <div class="txt">
+                                    <h3>Asiago Chicken meal</h3>
+                                    <p>an Italian gourmet treasure,comes with a choice of either crispy or grilled cajun chicken melt.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+            <!-- end with our services section -->
+        
+            
+            <!-- start with contact us section -->
+        <section class="contact-us text-center">
+            <div class="fields" id="con">
+                <div class="container">
+                    <i class="fa fa-superpowers fa-5x"></i>
+                    <h1>Make Your Online Order</h1>
+                    <p class="lead">Do Not Hesitate To Contact Us Anytime, We're Proud To serve You.</p>
+                    <div clss="row">
+                        <!-- start contact form -->
+                        <form role="form">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control input-lg" placeholder="Type your name here">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control input-lg" placeholder="Type your E mail here">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control input-lg" placeholder="Type your adress here">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <textarea class="from-control input-lg" placeholder="Create your order here"></textarea>
+                                    <button type="button" class="btn btn-success btn-lg btn-block">Contact Us</button>
+                                </div>
+                            </div>
+                        </form>
+                        <!-- end contact form -->
+                    </div>
+                </div>
+            </div>
+        </section>
+                <!-- end with contact us section -->
+        
+        
+        
+                <!-- start with footer -->
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <h3>SiteMap</h3>
+                        <ul class="list-unstyled three-columns">
+                            <a href="#"><li>Home</li></a>
+                            <a href="#"><li>About</li></a>
+                            <a href="#"><li>Menu</li></a>
+                            <a href="#"><li>Contact Us</li></a>
+                        </ul>
+                        <ul class="list-unstyled social-list">
+                            <a href="#"><li><img src="image/facebook.png" alt="facebook" class="img-responsive center-block"></li></a>
+                            <a href="#"><li><img src="image/youtube.png" alt="youtube" class="img-responsive center-block"></li></a>
+                            <a href="#"><li><img src="image/linkedin.png" alt="linkedin" class="img-responsive center-block"></li></a>
+                            <a href="#"><li><img src="image/instagram.png" alt="instgram" class="img-responsive center-block"></li></a>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <h3>Contact Us</h3>
+                        <div class="media">
+                          <div class="media-left">
+                            <a href="#">
+                              <i class="fa fa-envelope-open-o fa-3x" aria-hidden="true"></i>
+                            </a>
+                          </div>
+                          <div class="media-body">
+                            <h4 class="media-heading">E-Mail</h4>
+                            <p>mohamedsamy680@gmail.com</p>
+                          </div>
+                        </div>
+                        <div class="media">
+                          <div class="media-left">
+                            <a href="#">
+                              <i class="fa fa-home fa-3x" aria-hidden="true"></i>
+                            </a>
+                          </div>
+                          <div class="media-body">
+                            <h4 class="media-heading">Adress</h4>
+                            <p>5 st El-Orman Asfalt El-magzar Maryotia Haram</p>
+                          </div>
+                        </div>
+                        <div class="media">
+                          <div class="media-left">
+                            <a href="#">
+                              <i class="fa fa-mobile fa-5x" aria-hidden="true"></i>
+                            </a>
+                          </div>
+                          <div class="media-body">
+                            <h4 class="media-heading">Mobile Number</h4>
+                            <p>01006920037</p>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="hot">
+                            <h3>Hot Line</h3>
+                            <p>19978</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright col-xs-12 text-center">
+                Copyright &copy; 2017 All rights reserved. Created by <span>Mohamed Samy</span>
+            </div>
+        </footer>    
+                <!-- footer with footer -->
+            
+        
+           
+            <!-- start with scroll top button -->
+        <div id="scroll-top">
+            <i class="fa fa-chevron-up fa-x3"></i>
+        </div>
+            <!-- end with scroll top button -->
+        
+        
+        
+        <script src="js/jquery-3.1.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.bxslider.min.js"></script>        
+        <script src="js/jquery.nicescroll.min.js"></script>
+        <script src=js/jquery.mixitup.js></script>
+        <script src="js/plugIn.js"></script>
+    </body>
+</html>
